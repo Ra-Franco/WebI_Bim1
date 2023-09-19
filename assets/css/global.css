@@ -1,0 +1,35 @@
+.navbar {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navbar-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.navbar-ul div {
+    margin: 0 4rem;
+}
+
+.navbar-li {
+    float: right;
+}
+
+.navbar-li a,
+button {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    margin: 8px 10px;
+}
+
+.navbar-li button {
+    color: black;
+    margin: 5px 20px;
+}
