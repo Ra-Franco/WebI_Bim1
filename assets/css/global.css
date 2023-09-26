@@ -61,6 +61,13 @@ h2 {
     text-align: center;
 }
 
+
+#home-image {
+    width: 100%;
+    height: auto;
+    transform: scaleX(-1);
+}
+
 .image-main-content {
     max-width: 100%;
     height: auto;
@@ -69,7 +76,7 @@ h2 {
 .text-main-content {
     display: block;
     position: absolute;
-    top: 40%;
+    top: 60%;
     left: 10%;
     transform: translate(-50%, -50%);
     padding: 10px;
@@ -97,7 +104,7 @@ h2 {
     font-size: 1.5vw;
 }
 
-.text-main-content button {
+.text-main-content-button {
     position: absolute;
     top: 110%;
     right: 43.25%;
@@ -107,9 +114,87 @@ h2 {
     color: black;
 }
 
+.text-main-content-button:hover {
+    background: #EDC14A;
+}
 
-#home-image {
+.home-posts {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 8vw 4vw;
+}
+
+.home-featured-post {
+    width: 60%;
+}
+
+.border-featured-post {
+    border: 1px solid rgba(109, 110, 118, 0.3);
+}
+
+.container-post-title {
+    font-size: 1.75vw;
+}
+
+.div-featured-post-img {
+    overflow: hidden;
+    width: 900px;
+}
+
+.featured-post-img {
     width: 100%;
-    height: auto;
-    transform: scaleX(-1);
+    padding: 5vw;
+}
+
+.image-description {
+    margin-left: 5vw;
+    margin-top: -9vw;
+}
+
+.post-title {
+    font-size: 2vw;
+    padding-left: 5vw;
+    padding-right: 1.3vw;
+}
+
+.post-subtitle {
+    color: #6D6E76;
+    padding-left: 5vw;
+}
+
+.post-button {
+    margin-left: 5vw;
+    background-color: #FFD050;
+    color: #232536;
+    width: 13vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+.post-button:hover {
+    background: #EDC14A;
+}
+
+.home-all-posts {
+    width: 40%;
+}
+
+.all-posts {
+    padding: 2vw;
+}
+
+.post-content .p-post-content {
+    font-size: 1.8vw;
+    border: 1vw;
+    padding: 1vw;
+}
+
+.post-content .date-post-content {
+    margin-bottom: -2vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+}
+
+.post-content:hover {
+    background: #FBF6EA;
 }
