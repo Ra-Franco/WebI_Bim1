@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&family=Sen:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/footer.css ">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -62,10 +63,16 @@
             </div>
         </div>
         <div class="home-all-posts">
-            <p class="container-post-title"><b>All Posts</b></p>
-            <div>
-                <a><span style="color: #592EA9; float: right;">View all</span></a>
-            </div>
+            <ul style="list-style-type: none;">
+                <li style="display: inline-block;">
+                    <p class="container-post-title"><b>All Posts</b></p>
+                </li>
+                <li style="float: right;">
+                    <div>
+                        <a href="./posts.html"><span style="color: #592EA9; float: right;">View all</span></a>
+                    </div>
+                </li>
+            </ul>
             <div class="all-posts">
                 <div class="post-content">
                     <p class="date-post-content">By <span style="color: #592EA9;">John Deo</span> l Aug 23, 2021 </p>
@@ -86,7 +93,32 @@
             </div>
         </div>
     </div>
-
+    <footer>
+        <div class="footer-container">
+            <ul class="footer-ul">
+                <div>
+                    <li class="footer-li" style="float: left;">
+                        <h2 class="footer-title">Finsweet</h1>
+                    </li>
+                    <li class="footer-li"><a href="#AboutUs">About Us</a></li>
+                    <li class="footer-li"><a href="#ContactUs">Contact Us</a></li>
+                    <li class="footer-li"><a href="#blog">Blog</a></li>
+                    <li class="footer-li"><a href="#home">Home</a></li>
+                </div>
+            </ul>
+            <div class="footer-content">
+                <div class="footer-content-50">
+                    <p class="footer-content-description">Subscribe to our news letter to get latest updates and news
+                    </p>
+                </div>
+                <div class="footer-content-50">
+                    <div class="footer-submit">
+                        <input type="text" placeholder="Enter your Email">
+                        <button>Submit</button>
+                    </div>
+                </div>
+            </div>
+    </footer>
 </body>
 
 </html>

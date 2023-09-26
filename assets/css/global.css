@@ -58,19 +58,15 @@ h2 {
 
 .main-content {
     width: 100%;
-    text-align: center;
 }
 
-
 #home-image {
-    width: 100%;
-    height: auto;
     transform: scaleX(-1);
 }
 
 .image-main-content {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    object-fit: cover;
 }
 
 .text-main-content {
@@ -179,6 +175,11 @@ h2 {
     width: 40%;
 }
 
+.home-all-posts ul {
+    margin: 0;
+    padding: 0;
+}
+
 .all-posts {
     padding: 2vw;
 }
@@ -197,4 +198,98 @@ h2 {
 
 .post-content:hover {
     background: #FBF6EA;
+}
+
+.footer-container {
+    height: 30vw;
+    background-color: #232536;
+}
+
+.footer-ul {
+    list-style-type: none;
+    padding: 2vw;
+    align-items: center;
+    overflow: hidden;
+    background-color: #232536;
+}
+
+.footer-ul div {
+    margin: 1rem 4rem;
+}
+
+.footer-li {
+    float: right;
+}
+
+.footer-li a,
+h2 {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    margin: 8px 10px;
+    font-size: 20px;
+}
+
+.footer-title {
+    font-size: 30px;
+    padding-top: 8px;
+    padding-bottom: 14px;
+}
+
+.footer-content {
+    background-color: #4C4C4C;
+    height: 15vw;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer-content-50 {
+    width: 50%;
+}
+
+.footer-content-description {
+    font-size: 2vw;
+    padding: 3vw;
+    padding-left: 4vw;
+    color: white;
+}
+
+.footer-submit {
+    padding: 6vw;
+}
+
+.footer-submit input {
+    display: inline-block;
+    height: 45px;
+    width: 50%;
+    border: solid 1px rgba(109, 110, 118, 0.3);
+    background-color: #4C4C4C;
+}
+
+.footer-submit input::placeholder {
+    padding-left: 30px;
+}
+
+.footer-submit button {
+    display: inline-block;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    background-color: #FFD050;
+    margin-left: 4vw;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+    outline: 0;
+}
+
+.footer-submit button:hover {
+    background: #EDC14A;
 }
