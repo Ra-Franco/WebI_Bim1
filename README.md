@@ -16,6 +16,8 @@ Foi utilizado por Id (#Id-item);
 Foi utilizado para formatar todos os itens de certa tag (h1), assim como todo do site (*)
 Também em alguns itens, foi utilizado pseudo-classe como (a:hover)
 
+### Link pare acesso: https://main--pi-finsweet.netlify.app
+
 ## ✒️ Autores
 
 Ramon Franco
