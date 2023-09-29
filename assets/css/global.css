@@ -293,3 +293,12 @@ select:focus {
 .footer-submit button:hover {
     background: #EDC14A;
 }
+
+.footer-addres {
+    padding-top: 1vw;
+    width: 100%;
+}
+
+.footer-addres p {
+    color: #FFFFFF;
+}

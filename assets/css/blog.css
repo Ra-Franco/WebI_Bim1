@@ -1,0 +1,142 @@
+.header {
+    width: 100%;
+    background-color: #F4F0F8;
+    height: 28vw;
+    display: flex;
+    flex-direction: row wrap;
+    align-items: flex-start;
+}
+
+.header-content {
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header-content h3 {
+    color: #232536;
+}
+
+.header-content p {
+    color: #6D6E76;
+
+}
+
+.header-content-button {
+    background-color: #FFD050;
+    color: black;
+    width: 30%;
+    margin-top: 1.6vw;
+}
+
+.header-content-button:hover {
+    background: #EDC14A;
+}
+
+.header-image {
+    width: 50%;
+    padding: 3%;
+}
+
+.all-posts {
+    border-bottom: 1px solid rgba(109, 110, 118, 0.3);
+    padding-bottom: 1vw;
+    padding-left: 0;
+}
+
+.posts-content {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.posts-content-image {
+    width: 40%;
+}
+
+.post-type {
+    color: #592EA9;
+}
+
+.posts-content-description {
+    margin: 5%;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.next-prev {
+    text-align: center;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.next-prev a {
+    text-decoration: none;
+    transition: transform .2s ease-in-out;
+    margin-left: 10px;
+}
+
+.next-prev a:hover {
+    transform: scale(1.2);
+}
+
+.all-categories {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.categories-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.categoies-content-item {
+    border: 1px solid rgba(109, 110, 118, 0.3);
+    width: 25%;
+    padding: 3%;
+}
+
+.categoies-content-item p {
+    color: #6D6E76;
+}
+
+.categoies-content-item h3 {
+    color: #232536;
+}
+
+.categoires-icons {
+    position: absolute;
+}
+
+.join-now {
+    margin-top: 5%;
+    padding-left: 35%;
+    padding-right: 35%;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+.join-now p {
+    color: #6D6E76;
+}
+
+.join-now button {
+    margin-top: 10%;
+    background-color: #FFD050;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: inline-flex;
+    align-self: center;
+}
+
+.join-now:hover button {
+    background: #EDC14A;
+}
